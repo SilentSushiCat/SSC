@@ -1,0 +1,8 @@
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+
+const token = 'NjMyMDMzNDE1MDMzNzgyMjcy.XZ_pEg.dmMyM2oPZWXqO2GvBxdkmBqvsC0';
+
+bot.on('ready', () =>{
+    console.log('Sushi Is Ready!');
+    client.login(process.env.BOT_TOKEN);
